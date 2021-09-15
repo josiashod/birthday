@@ -95,6 +95,7 @@ header a svg{
 
 .content .side:last-child p {
     font-size: 1rem;
+    width: 100%;
 }
 
 .content .side:first-child.active{
