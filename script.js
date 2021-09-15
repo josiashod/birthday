@@ -31,7 +31,7 @@
 
             el.classList.add('active')
 
-            clicked = true
+            document.getElementById('refresh').style.display= "block"
         })
 
         el.addEventListener('mouseover', function(e){
@@ -60,6 +60,14 @@
             document.querySelector('.content').classList.remove('hide')
             document.querySelector('.message').classList.remove('show')
             document.getElementById('second-help').style.display= "block"
+        })
+
+        document.getElementById('refresh').addEventListener('click', function(){
+            $headers[0].classList.remove('active')
+            $headers[1].classList.remove('active')
+            $slides[0].classList.remove('active')
+            $slides[1].classList.remove('active')
+            this.style.display= "none"
         })
     }
    

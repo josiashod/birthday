@@ -24,6 +24,10 @@ header a {
     text-decoration: none;
 }
 
+header a svg{
+    transform: rotate(-45deg);
+}
+
 .content{
     height: 100vh;
     width: 100vw;
