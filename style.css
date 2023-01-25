@@ -163,6 +163,10 @@ header a svg{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+ul{
+    margin-left: .6rem;
+}
+
 @media (min-width: 768px){
     .slide.active{
         display: flex;
