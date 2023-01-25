@@ -144,7 +144,7 @@ header a svg{
     margin-top: .6rem;
 }
 
-.message p, ul{
+.message p, ul li{
     font-size: 1rem;
 }
 
