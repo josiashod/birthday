@@ -244,7 +244,7 @@ header a svg{
         font-size: 50px;
     }
 
-    .message p{
+    .message p, ul li{
         font-size: 2rem;
     }
 }
